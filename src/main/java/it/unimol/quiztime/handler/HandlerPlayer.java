@@ -1,6 +1,8 @@
 package it.unimol.quiztime.handler;
 
 import it.unimol.quiztime.entities.Player;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -8,9 +10,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+@Getter
+@Setter
 public class HandlerPlayer {
 
     private List<Player> playerList;
+
 
     public HandlerPlayer(){
         this.playerList = new ArrayList<>();

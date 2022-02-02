@@ -6,13 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class HandlerPlayerTest {
     @Test
     void checkEmptyListException() {
-        try {
             HandlerPlayer handlerPlayer = new HandlerPlayer();
-            handlerPlayer.checkListIsNotEmpty();
-            fail();
-        } catch (EmptyListException e) {
-
-        }
-
+            assertFalse(handlerPlayer.getPlayerList().isEmpty());
     }
 }
