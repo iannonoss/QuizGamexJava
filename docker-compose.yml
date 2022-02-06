@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  quizgamejava:
+    build: ""
+    environment:
+      DISPLAY: "172.22.176.1:0.0"
