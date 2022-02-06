@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeFrame extends JFrame {
-
     public HandlerQuiz handlerQuiz = new HandlerQuiz();
     public HandlerPlayer handlerPlayer = new HandlerPlayer();
     List<Player> bestPlayers;
