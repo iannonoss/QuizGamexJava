@@ -40,4 +40,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: artifact
-        path: target\JavaQuiz-1.0-SNAPSHOT.jar
+        path: target/JavaQuiz-1.0-SNAPSHOT.jar
