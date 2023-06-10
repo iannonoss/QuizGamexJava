@@ -1,5 +1,6 @@
 FROM node:17.0.1-alpine
 WORKDIR /app
-COPY myapp/ app
+COPY package.json package-lock.json .
 RUN npm install --production
+COPY myapp/ app
 CMD ["node", "src/index.js"]
